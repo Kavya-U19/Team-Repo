@@ -1,0 +1,10 @@
+<div class="blog-details">
+<div style="width: 50%;"  *ngIf="blogData">
+    <h2>{{ blogData.title }}</h2>
+    <p>{{ blogData.body }}</p>
+    <app-writer [writerId]=blogData.userId></app-writer>
+</div>
+<br>
+<img style="width: 50%"src="https://images4.alphacoders.com/115/thumb-1920-115716.jpg" alt="">
+<app-comment-list></app-comment-list>
+</div>

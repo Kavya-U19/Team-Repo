@@ -2,7 +2,7 @@ package lab3.ex2;
 
 import java.util.Scanner;
 
-public class Lab3Ex3 {
+public class Lab3Ex2 {
 	public static String reverseword(String args) {
 		StringBuffer sb=new StringBuffer(args);
 		sb=sb.reverse();

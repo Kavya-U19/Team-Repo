@@ -3,7 +3,7 @@ package lab3.ex1;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Lab3Ex3 {
+public class Lab3Ex1 {
 	public static void main(String args[])
 	{
 			Scanner s = new Scanner(System.in);
